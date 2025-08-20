@@ -16,10 +16,10 @@ const subjectList = {
         { name: "URDU", max: 75 },
         { name: "ENGLISH", max: 75 },
         { name: "MATHEMATICS", max: 75 },
-        { name: "PHYSICS", max: 75 },
-        { name: "CHEMISTRY", max: 75 },
+        { name: "PHYSICS", max: 60 },
+        { name: "CHEMISTRY", max: 60 },
         { name: "-", max: 0 },
-        { name: "COMPUTER SCIENCE", max: 75 },
+        { name: "COMPUTER SCIENCE", max: 50 },
         { name: "TRANSLATION OF THE HOLY QURAN", max: 50 }
     ]
 };
