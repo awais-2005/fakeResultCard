@@ -1,0 +1,315 @@
+.bg_main
+{
+    background-image:url('Images/bg_main.jpg');
+    top:0px;
+}
+.Top_Banner
+{
+    height:124px;
+    background-image: url('Images/Top_Banner.jpg');
+    vertical-align: bottom;
+}
+.TopMenuStatucHoverStyle
+{
+    background-color:#9d7345;
+    color:White;
+    height:23px;
+}    
+ .RoundedPanelMain
+{	
+	background-color:#cdb89b;
+}   
+.HomePageChairmanMsg
+{
+    padding-right: 5px;
+	padding-left: 5px;
+	font-size: 8pt;
+	padding-bottom: 3px;
+	color: Navy;
+	padding-top: 3px;
+	font-family: Verdana;
+	text-align:justify;
+}
+.NoticeBoard
+{
+    background-color:#cc6600;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 10pt;
+    padding-bottom: 3px;
+    color: White;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Verdana;
+    font-weight: bold;
+    border:#cc6600 1px outset;
+}    
+.NoticeBoardDetail
+{
+    vertical-align:top;
+    border:#cc6600 1px outset;
+    background-image: url('images/bg_1.jpg');
+}    
+.RegistrationAdmission
+{
+    background-color:#006699;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 10pt;
+    padding-bottom: 3px;
+    color: White;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Verdana;
+    font-weight: bold;
+    border:#006699 1px outset;
+}    
+.RegistrationAdmissionDetail
+{
+    vertical-align:top;
+    border:#006699 1px outset;
+    background-image: url('images/bg_1.jpg');
+}    
+
+.FamilyTop
+{
+    background-color:#b99b7f;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 10pt;
+    padding-bottom: 3px;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Verdana;
+    font-weight: bold;
+    border:#715233 1px outset;
+}    
+.FamilyTopDetail
+{
+    vertical-align:top;
+    border:#715233 1px outset;
+    background-image: url('images/bg_1.jpg');
+}    
+.LinkButtonStyle
+{
+    padding: 1px;
+	font-weight: bold;
+	font-size: 13px;
+	color:Navy; 
+	font-family:Times New Roman;
+	text-decoration:none;
+}
+.NormalText
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 9pt;
+	padding-bottom: 3px;
+	color: #000099;
+	padding-top: 3px;
+	font-family: Verdana;
+}
+.Controls
+{
+	padding-right: 3px;
+	padding-left: 3px;
+    padding-top: 3px;    
+	padding-bottom: 3px;
+}
+.DDLStyle
+{
+	padding-right: 3px;
+	padding-left: 3px;
+    padding-top: 3px;    
+	padding-bottom: 3px;
+    font-size: 7pt;
+    color: Navy;
+    font-family: Verdana;
+}
+.ButtonStyle
+{
+    padding: 1px;
+	font-size: 9pt;
+	color: Navy;
+	font-weight:bold;
+	font-family: Verdana; 
+}
+.ParagraphText
+{
+    padding-right: 5px;
+    padding-left: 7px;
+    font-size: 12pt;
+    padding-bottom: 3px;
+    color: #003366;
+    padding-top: 3px;
+    font-family: Times New Roman;
+    text-align:center;
+}
+.BoldText
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 9pt;
+    padding-bottom: 3px;
+    color: #003366;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.BoldText2
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 9pt;
+    padding-bottom: 3px;
+    color: Navy;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.ErrorLabelStyle
+{
+    padding-right: 5px;
+	padding-left: 5px;
+	font-size: 8pt;
+	font-weight:bold;
+	padding-bottom: 3px;
+	color:Red; 
+	padding-top: 3px;
+	font-family: Verdana;
+}
+.AName2
+{
+    color:Navy;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.QName2
+{
+    color:Red;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.QMessage
+{
+    font-size: 12pt;
+    font-weight: bold;
+    color:Maroon;
+    padding-left:25px;
+}
+.SmallGrayText
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 8pt;
+	padding-bottom: 2px;
+	color:white;
+	padding-top: 4px;
+	font-family: Verdana;
+}
+.HomePageGridStyle
+{
+    background-color:#cab38a;
+    border-color:#b8860b;
+    border-width:1px;
+    font-weight:bold;
+    color:Navy;
+    font-family: Verdana;
+    padding:2px;
+}
+.MatrixGridStyle
+{
+    font-size:8.5pt;
+    background-color:#cab38a;
+    border-color:#b8860b;
+    border-width:1px;
+    color:Navy;
+    font-family: Verdana;
+    padding:2px;
+}
+.MatrixGridHeaderStyle
+{
+    background-color:#996633;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:small;
+    color:White;
+    text-align:center;
+}
+.MatrixGridFooterStyle
+{
+    background-color:#996633;
+    color:White;
+    
+}
+.HomePageGridBoldText
+{
+    font-weight: bold;
+    font-size: 7.8pt;
+    color: Navy;
+    font-family: Verdana;
+    text-decoration:none;
+}
+.HomePageGridRowStyle
+{
+    background-color:#cab38a;
+    color:Navy;
+ }
+.HomePageGridAlternatingRowStyle
+{
+    background-color:#d0c09c;
+    color:Navy;
+}
+.Borders
+{
+    background-color: #996633;
+}
+.TextBoxStyle
+{
+    padding: 1px;
+	font-size: 9pt;
+	color: Navy;
+	font-family: Verdana; 
+}
+
+
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}
+.RBTStyle
+{
+    font-size: 7pt;
+    color: Navy;
+    font-family: Verdana;
+}
+.LabelStyle
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 8pt;
+	padding-bottom: 3px;
+	color:Blue; 
+	padding-top: 3px;
+	font-family: Verdana;
+}
