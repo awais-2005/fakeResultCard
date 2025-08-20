@@ -127,7 +127,7 @@ function buildStudentFromForm(event) {
         name: form.querySelector('input[name="name"]').value,
         fatherName: form.querySelector('input[name="fatherName"]').value,
         institution: form.querySelector('input[name="institution"]').value,
-        examName: form.querySelector('input[name="examName"]').value,
+        examName: "MATRIC 9TH CLASS FIRST ANNUAL EXAMINATION 2025",
         stream: stream,
         subjects: subjects
     };
