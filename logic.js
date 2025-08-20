@@ -11,7 +11,7 @@ const subjectList = {
         { name: "FOOD AND NUTRITION", max: 60 },
         { name: "TRANSLATION OF THE HOLY QURAN", max: 50 }
     ],
-    science: [
+    computer: [
         { name: "ISLAMIYAT (COMPULSORY)", max: 100 },
         { name: "URDU", max: 75 },
         { name: "ENGLISH", max: 75 },
@@ -20,6 +20,17 @@ const subjectList = {
         { name: "CHEMISTRY", max: 60 },
         { name: "-", max: 0 },
         { name: "COMPUTER SCIENCE", max: 50 },
+        { name: "TRANSLATION OF THE HOLY QURAN", max: 50 }
+    ],
+    biology: [
+        { name: "ISLAMIYAT (COMPULSORY)", max: 100 },
+        { name: "URDU", max: 75 },
+        { name: "ENGLISH", max: 75 },
+        { name: "MATHEMATICS", max: 75 },
+        { name: "PHYSICS", max: 60 },
+        { name: "CHEMISTRY", max: 60 },
+        { name: "-", max: 0 },
+        { name: "BIOLOGY", max: 60 },
         { name: "TRANSLATION OF THE HOLY QURAN", max: 50 }
     ]
 };
@@ -31,7 +42,7 @@ let student = {
     name: "",
     fatherName: "",
     institution: "",
-    examName: "",
+    examName: "MATRIC 9TH CLASS FIRST ANNUAL EXAMINATION 2025",
     subjects: []
 };
 

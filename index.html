@@ -1,55 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Result Input</title>
   <style>
-    *{ box-sizing: border-box; padding: 0; margin: 0;}
-    body { font-family: Arial, sans-serif; width: 100%;}
-    form { max-width: 700px; margin: auto; background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);}
-    label { display: block; margin-top: 10px; font-size: 0.8rem;}
-    input, select { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }
-    .subject-inputs { margin-top: 20px; padding: 10px; background: #eee; border-radius: 8px; }
-    button { margin-top: 20px; padding: 10px; width: 100%; background: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
-    button:hover { background: #0056b3; }
-    pre { background: #222; color: #0f0; padding: 15px; border-radius: 8px; margin-top: 20px; white-space: pre-wrap;}
+    * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  background: #f0f2f5;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  max-width: 700px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.subject-inputs {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* 📱 Mobile Optimization */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  input, select, button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
   </style>
 </head>
 <body>
 
   <form id="studentForm">
-    <h2>Enter Information</h2>
+    <h2>Enter Student Information</h2>
     
-    <label>Roll No</label>
-    <input type="text" name="rollNo" required>
+    <label for="rollNo">Roll No</label>
+    <input type="text" id="rollNo" name="rollNo" required>
     
-    <label>Registration No</label>
-    <input type="text" name="registrationNo" required>
+    <label for="registrationNo">Registration No</label>
+    <input type="text" id="registrationNo" name="registrationNo" required>
     
-    <label>Candidate Name</label>
-    <input type="text" name="name" required>
+    <label for="name">Candidate Name</label>
+    <input type="text" id="name" name="name" required>
     
-    <label>Father's Name</label>
-    <input type="text" name="fatherName" required>
+    <label for="fatherName">Father's Name</label>
+    <input type="text" id="fatherName" name="fatherName" required>
     
-    <label>Institution</label>
-    <input type="text" name="institution" required>
+    <label for="institution">Institution</label>
+    <input type="text" id="institution" name="institution" required>
     
-    <label>Exam Name</label>
-    <input type="text" name="examName" required>
-    
-    <label>Stream</label>
+    <label for="streamSelect">Stream</label>
     <select id="streamSelect" name="stream" required>
+      <option value="">-- Select Majors --</option>
       <option value="arts">Arts</option>
-      <option value="science">Science</option>
+      <option value="computer">Computer Science</option>
+      <option value="biology">Biology</option>
     </select>
     
     <div class="subject-inputs" id="subjectsContainer"></div>
     
     <button type="submit">Generate Result Card</button>
   </form>
-
-  <pre id="output"></pre>
   <script src="logic.js"></script>
 </body>
 </html>
